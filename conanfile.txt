@@ -1,0 +1,7 @@
+[requires]
+ZvdEABase/1.0.0@mrsung82/stable
+ZvdEASTL/1.0.0@mrsung82/stable
+
+[generators]
+CMakeDeps
+CMakeToolchain
