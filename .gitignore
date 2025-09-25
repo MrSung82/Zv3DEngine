@@ -425,4 +425,4 @@ lib/
 #rnd, venv
 rnd/
 *.cbp
-venv/
+.venv/
