@@ -1,7 +1,36 @@
 [requires]
-ZvdEABase/1.0.0@mrsung82/stable
-ZvdEASTL/1.0.0@mrsung82/stable
+# Core Testing
+gtest/1.14.0
+
+# Logging
+spdlog/1.12.0
+
+# Physics
+joltphysics/5.2.0
+
+# Audio
+miniaudio/0.11.21
+
+# Networking
+enet/1.3.17
+
+# Asset Loading (for Tools/Editor)
+cgltf/1.13
+stb/cci.20240531
+
+# Scripting
+angelscript/2.36.1
+
+# Data / Serialization / Database
+nlohmann_json/3.11.3
+sqlite3/3.50.4
+sqlitecpp/3.3.2
 
 [generators]
+# For Visual Studio project integration (generates .props files)
+MSBuildDeps
+MSBuildToolchain
+
+# For CMake integration (generates .cmake files)
 CMakeDeps
 CMakeToolchain
